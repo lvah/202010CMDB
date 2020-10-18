@@ -14,7 +14,7 @@ def get_active_hosts(hosts):
     return hosts
 
 
-def is_ssh_up(host, port=22, timeout=5):
+def is_ssh_up(host, port=22, timeout=5)->bool:
     """判断指定IP的ssh端口是否开启"""
     try:
         # 实例化对象
