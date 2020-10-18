@@ -119,6 +119,7 @@ STATIC_URL = '/static/'
 scanhosts = [
     '192.168.63.0/24'
 ]
+# 字典: key:value=服务器信息的属性名:"获取这个属性信息的Linux命令"
 commands = {
     'hostname': 'hostname',
     'os_type': 'uname',
